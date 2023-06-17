@@ -2,7 +2,7 @@
 let carrito = ""
 let totalCompra = 0
 let articulos =
-  "Articulos:\n1 - maseta x $2100\n2 - masetau x $2000\n3 - destapador x $5000\n4 - centro de mesa x $1800\n5 - ver total\n6 - fin del pedido\n0 - salir"
+  "Articulos:\n1 - maseta x $2100\n2 - perchero x $2500\n3 - destapador x $5000\n4 - centro de mesa x $1800\n5 - ver total\n6 - fin del pedido\n0 - salir"
 
 function agregarAlCarrito() {
   let producto
@@ -15,8 +15,8 @@ function agregarAlCarrito() {
       alert("Producto agregado: maseta")
       totalCompra += 2100
     } else if (producto === 2) {
-      alert("Producto agregado: masetau")
-      totalCompra += 2000
+      alert("Producto agregado: perchero")
+      totalCompra += 2500
     } else if (producto === 3) {
       alert("Producto agregado: destapador")
       totalCompra += 5000
